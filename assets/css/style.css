@@ -292,7 +292,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #39b54a;
+  background-color: #2d8cff;
 }
 
 .section-title--story {
@@ -370,6 +370,7 @@ button {
 }
 
 .header .container {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
