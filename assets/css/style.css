@@ -251,7 +251,7 @@ button {
 }
 
 .bg-color--gray {
-  background-color: #e6e6e6;
+  background-color: #242424;
 }
 
 /*********************
@@ -375,6 +375,7 @@ button {
 }
 
 .header .container {
+  color: black;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
