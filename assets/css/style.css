@@ -504,6 +504,7 @@ button {
 * Utility
 ********************/
 .text-center {
+  color: white;
   text-align: center;
 }
 
