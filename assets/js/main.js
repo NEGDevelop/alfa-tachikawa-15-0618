@@ -18,15 +18,15 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: 'あああ',
+          q1: '40',
         },
         stage2: {
-          q1: 'いいい',
-          q2: 'ううう',
+          q1: '漢数字',
+          q2: 'ここにいるよ',
           // q3: 'おおお'
         },
         stage3: {
-          q1: 'えええ',
+          q1: '塩バターラーメン',
           // q2: 'かかか',
           // q3: 'ききき',
         }
@@ -99,8 +99,8 @@ app.component('answer-input', {
   data: function () {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
-      okMessage: '正解！',
-      ngMessage: 'そのキーワードは違うようだぞ！？',
+      okMessage: '正解です！',
+      ngMessage: 'もう一度考えてみましょう！',
       message: '',
       inputAnswer: '',
     }
